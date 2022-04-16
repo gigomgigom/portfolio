@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>프로젝트</title>
+</head>
+<body>
+    <div class="Header">
+        <h1>포트폴리오</h1>
+    </div>
+    <nav id="topNavi" >
+        <ul>
+            <li><a class="SeleForm" href="#tabElem">테이블 요소</a></li>
+            <li><a class="SeleForm" href="#formElem">폼 요소</a></li>
+            <li><a class="SeleForm" href="#listElem">리스트 요소</a></li>
+        </ul>
+    </nav>
+
+    <div class="Banner">
+        <h2>구성요소</h2>
+        <hr>
+    </div>
+
+    <table class="KidSize" style="table-layout: fixed; width: 799px">
+      <colgroup>
+      <col style="width: 110px">
+      <col style="width: 65px">
+      <col style="width: 80px">
+      <col style="width: 80px">
+      <col style="width: 80px">
+      <col style="width: 80px">
+      <col style="width: 80px">
+      <col style="width: 80px">
+      <col style="width: 140px">
+      </colgroup>
+      <thead>
+        <tr>
+          <th class="KsDiv" colspan="2">구분</th>
+          <th class="KsSize" colspan="2">Small</th>
+          <th class="KsSize" colspan="2">Medium</th>
+          <th class="KsSize" colspan="2">Large</th>
+          <th class="KsSize">X-Large</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="KsMain" rowspan="3">미국 남아<br>[Boys 2-7]</td>
+          <td class="KsMain">사이즈</td>
+          <td class="KsSub">2T</td>
+          <td class="KsSub">3T</td>
+          <td class="KsSub">4T</td>
+          <td class="KsSub">4</td>
+          <td class="KsSub">5</td>
+          <td class="KsSub">6</td>
+          <td class="KsSub">7</td>
+        </tr>
+        <tr>
+          <td class="KsMain">키</td>
+          <td class="KsSub">84-91</td>
+          <td class="KsSub">91-99</td>
+          <td class="KsSub">91-99</td>
+          <td class="KsSub">99-107</td>
+          <td class="KsSub">107-114</td>
+          <td class="KsSub">114-122</td>
+          <td class="KsSub">122-130</td>
+        </tr>
+        <tr>
+          <td class="KsMain">몸무게</td>
+          <td class="KsSub">13-15</td>
+          <td class="KsSub">14-15</td>
+          <td class="KsSub">13-15</td>
+          <td class="KsSub">14-15</td>
+          <td class="KsSub">19-21</td>
+          <td class="KsSub">20-23</td>
+          <td class="KsSub">23-25</td>
+        </tr>
+        <tr>
+          <td class="KsMain" rowspan="3">미국 여아<br>[Girls 2-6X]</td>
+          <td class="KsMain">사이즈</td>
+          <td class="KsSub">2T</td>
+          <td class="KsSub">3T</td>
+          <td class="KsSub">4T</td>
+          <td class="KsSub">4</td>
+          <td class="KsSub">5</td>
+          <td class="KsSub">6</td>
+          <td class="KsSub">6X</td>
+        </tr>
+        <tr>
+          <td class="KsMain">키</td>
+          <td class="KsSub">84-91</td>
+          <td class="KsSub">91-99</td>
+          <td class="KsSub">91-99</td>
+          <td class="KsSub">99-107</td>
+          <td class="KsSub">107-114</td>
+          <td class="KsSub">114-122</td>
+          <td class="KsSub">122-130</td>
+        </tr>
+        <tr>
+          <td class="KsMain">몸무게</td>
+          <td class="KsSub">13-15</td>
+          <td class="KsSub">14-15</td>
+          <td class="KsSub">13-15</td>
+          <td class="KsSub">14-15</td>
+          <td class="KsSub">19-21</td>
+          <td class="KsSub">20-23</td>
+          <td class="KsSub">23-25</td>
+        </tr>
+      </tbody>
+      </table>
+
+      <br>
+    
+    <table class="RefMon" style="table-layout: fixed; width: 576px">
+        <colgroup>
+        <col style="width: 388px">
+        <col style="width: 130px">
+        <col style="width: 130px">
+        <col style="width: 150px">
+        </colgroup>
+        <tbody>
+          <tr id="RefHead">
+            <td class="RefMain">구분</td>
+            <td class="RefMain">환불가능액</td>
+            <td class="RefMain">수수료</td>
+            <td class="RefMain">총 환불금액</td>
+          </tr>
+          <tr id="RefCont1">
+            <td class="RefMains">게임 보상금액</td>
+            <td class="RefSub">100,000원</td>
+            <td class="RefSub">1,000원</td>
+            <td class="RefSub">99,000원</td>
+          </tr>
+          <tr id="RefCont2">
+            <td class="RefMains">월정액제 보상금액</td>
+            <td class="RefSub">10,000원</td>
+            <td class="RefSub">5,000원</td>
+            <td class="RefSub">5,000원</td>
+          </tr>
+          <tr id="RefCont3">
+            <td class="RefMains">코인</td>
+            <td class="RefSub">9,000원</td>
+            <td class="RefSub">500원</td>
+            <td class="RefSub">8,500원</td>
+          </tr>
+          <tr id="RefFoot">
+            <td class="RefMains">총합계</td>
+            <td class="RefSub">119,000원</td>
+            <td class="RefSub">6,500원</td>
+            <td class="RefSub">112,500원</td>
+          </tr>
+        </tbody>
+        </table>
+
+</body>
+</html>

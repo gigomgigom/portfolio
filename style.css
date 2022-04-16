@@ -1,0 +1,146 @@
+body {
+    margin: 0%;
+}
+.Header { /*포트폴리오 상단 스타일부분[글씨 정렬 수정작업필요!]*/
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    display: flex;
+
+}
+#topNavi {
+    height: 20px;
+    width: auto;
+}
+#topNavi ul {
+    text-align: center; /*하단에인라인블록속성으로변경된li들을 텍스트로 인식 후 중앙정렬*/
+}
+#topNavi ul li {
+    list-style: none; /*li태그내에 목록을 나타내는 점 제거*/
+    display: inline-block; /*ul 내에 li들의 속성을 인라인블록으로 변경*/
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+}
+#topNavi .SeleForm {
+    text-decoration:none; /*링크 언더라인등 효과 제거*/
+    color: gray; /*호버 전 글씨색*/
+    display: block; /*링크를 글씨가 있는구간만이 아닌 그칸 영역을 선택할 수 있게함*/
+    width: 400px;
+    font-size: 20px;
+    border-style:outset; /*폼선택에 테두리스타일 설정*/
+    border-width:1px;
+    border-color:gainsboro;
+    margin:10px; /*요소선택칸 사이 여백 추가*/
+    /*폰트 정해서 넣기*/
+}
+#topNavi .SeleForm:hover { /*호버 후 상호작용 효과*/
+    color: black;
+    font-weight: bold;
+    border-color: black;
+}
+/*테이블요소-아동사이즈*/
+.KidSize  {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+.KidSize td{
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+.KidSize th{
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+.KidSize .KsDiv{
+    background-color:#efefef;
+    border-color:#c0c0c0;
+    font-size:12px;
+    font-weight:bold;
+    text-align:center;
+    vertical-align:top
+}
+.KidSize .KsSize{
+    background-color:#efefef;
+    border-color:#c0c0c0;
+    color:#555555;
+    font-size:12px;
+    font-weight:bold;
+    text-align:center;
+    vertical-align:top
+}
+.KidSize .KsSub{
+    border-color:#c0c0c0;
+    color:#555555;
+    font-size:12px;
+    text-align:center;
+    vertical-align:top
+}
+.KidSize .KsMain{
+    border-color:#c0c0c0;
+    color:#555555;
+    font-size:12px;
+    font-weight:bold;
+    text-align: center;
+    vertical-align:top
+}
+.RefMon {
+    border-collapse:collapse;
+    border-spacing: 0;
+}
+.RefMon td {
+    border-color:black;
+    border-style: solid;
+    border-width: 1px;
+    font-size:12px;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break:normal;
+    font-family:Arial, sans-serif;
+}
+.RefMon th {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 12px;
+    font-weight: normal;
+    overflow: hidden;
+    padding : 10px 5px;
+    word-break: normal;
+    font-family:Arial, sans-serif;
+}
+.RefMon #RefHead {
+    background-color: gray;
+}
+.RefMon .RefMain {
+    background-color : #fbfbfb;
+    color: #555;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: top;
+}
+.RefMon .RefMains {
+    background-color: #fbfbfb;
+    font-size:12px;
+    text-align:center;
+    vertical-align:top;
+}
+.RefMon .RefSub {
+    background-color: #fbfbfb;
+    color: #555;
+    font-size: 12px;
+    text-align: right;
+}
